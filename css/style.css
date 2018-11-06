@@ -1,113 +1,546 @@
-body{
-  font-family: 'Comfortaa', cursive;
-}
+@media only screen and (max-width: 600px) {
+  body{
+    font-family: 'Comfortaa', cursive;
+  }
 
-#div1{
-  width: 100%;
-  height: 100vh;
-}
+  #div1{
+    width: 100%;
+    height: 100vh;
+  }
 
-h1.titulo{
-  font-family: 'Comfortaa', cursive;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 30px;
-  -webkit-text-stroke: 1px black;
-  color: black;
-  text-shadow:
-    3px 3px 0 #FEDC3D,
-    -1px -1px 0 #FEDC3D,
-    1px -1px 0 #FEDC3D,
-    -1px 1px 0 #FEDC3D,
-    1px 1px 0 #FEDC3D;
-}
+  h1.titulo{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    -webkit-text-stroke: 1px black;
+    color: black;
+    text-shadow:
+      3px 3px 0 #FEDC3D,
+      -1px -1px 0 #FEDC3D,
+      1px -1px 0 #FEDC3D,
+      -1px 1px 0 #FEDC3D,
+      1px 1px 0 #FEDC3D;
+  }
 
-#make{
-  text-decoration: underline dotted #DF744A;
-}
+  #make{
+    text-decoration: underline dotted #DF744A;
+  }
 
-#image_profile{
-  margin-top: 80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  border: 6px solid #DF744A;
-  border-radius: 9px;
-  padding: 4px;
-}
+  #image_profile{
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: 6px solid #DF744A;
+    border-radius: 9px;
+    padding: 4px;
+  }
 
-img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
+  img:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
 
 
-#div2{
-  width: 100%;
-  height: 80vh;
-  background-color: #FEDC3D;
-}
+  #div2{
+    width: 100%;
+    height: 100vh;
+    background-color: #FEDC3D;
+  }
 
-h2.subtitu{
-  font-family: 'Comfortaa', cursive;
-  font-weight: bold;
-  text-align: left;
-  margin-top: 90px;
-  margin-bottom: 80px;
-  font-size: 40px;
-  -webkit-text-stroke: 1px black;
-  color: #DF744A;
-  text-shadow:
-    3px 3px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
+  h2.subtitu{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+    color: #DF744A;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
 
-#div3{
-  background-color: white;
-  margin-top: -190px;
-}
-
-h2.subtitu1{
-  font-family: 'Comfortaa', cursive;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  font-size: 55px;
-  -webkit-text-stroke: 2px black;
-  color: #FEDC3D;
-  text-shadow:
-    3px 3px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-.span1{
-  font-size: 20px;
-  -webkit-text-stroke: 1px black;
-  color: #FEDC3D;
-  text-shadow:
-    1px 1px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-@media only screen and (min-width: 300px) {
   #div3{
     background-color: white;
-    margin-top: -99px;
+    margin-top: -60px;
+  }
+
+  h2.subtitu1{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 55px;
+    -webkit-text-stroke: 2px black;
+    color: #FEDC3D;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .span1{
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    color: #FEDC3D;
+    text-shadow:
+      1px 1px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #div4{
+    width: 100%;
+    height: 100vh;
+    background-color: #FEDC3D;
   }
 }
 
-#div4{
-  width: 100%;
-  height: 100vh;
-  background-color: #FEDC3D;
+@media only screen and (min-width: 600px) {
+  body{
+    font-family: 'Comfortaa', cursive;
+  }
+
+  #div1{
+    width: 100%;
+    height: 100vh;
+  }
+
+  h1.titulo{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    -webkit-text-stroke: 1px black;
+    color: black;
+    text-shadow:
+      3px 3px 0 #FEDC3D,
+      -1px -1px 0 #FEDC3D,
+      1px -1px 0 #FEDC3D,
+      -1px 1px 0 #FEDC3D,
+      1px 1px 0 #FEDC3D;
+  }
+
+  #make{
+    text-decoration: underline dotted #DF744A;
+  }
+
+  #image_profile{
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 6px solid #DF744A;
+    border-radius: 9px;
+    padding: 4px;
+  }
+
+  img:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+  #div2{
+    width: 100%;
+    height: 100vh;
+    background-color: #FEDC3D;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+
+  h2.subtitu{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+    color: #DF744A;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #div3{
+    background-color: white;
+    margin-top: 0px;
+  }
+
+  h2.subtitu1{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 55px;
+    -webkit-text-stroke: 2px black;
+    color: #FEDC3D;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .span1{
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    color: #FEDC3D;
+    text-shadow:
+      1px 1px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #div4{
+    width: 100%;
+    height: 100vh;
+    background-color: #FEDC3D;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body{
+    font-family: 'Comfortaa', cursive;
+  }
+
+  #div1{
+    width: 100%;
+    height: 100vh;
+  }
+
+  h1.titulo{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    -webkit-text-stroke: 1px black;
+    color: black;
+    text-shadow:
+      3px 3px 0 #FEDC3D,
+      -1px -1px 0 #FEDC3D,
+      1px -1px 0 #FEDC3D,
+      -1px 1px 0 #FEDC3D,
+      1px 1px 0 #FEDC3D;
+  }
+
+  #make{
+    text-decoration: underline dotted #DF744A;
+  }
+
+  #image_profile{
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 6px solid #DF744A;
+    border-radius: 9px;
+    padding: 4px;
+  }
+
+  img:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+  #div2{
+    width: 100%;
+    height: 80vh;
+    background-color: #FEDC3D;
+  }
+
+  h2.subtitu{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+    color: #DF744A;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #div3{
+    background-color: white;
+    margin-top: -190px;
+  }
+
+  h2.subtitu1{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 55px;
+    -webkit-text-stroke: 2px black;
+    color: #FEDC3D;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .span1{
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    color: #FEDC3D;
+    text-shadow:
+      1px 1px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #div4{
+    width: 100%;
+    height: 100vh;
+    background-color: #FEDC3D;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body{
+    font-family: 'Comfortaa', cursive;
+  }
+
+  #div1{
+    width: 100%;
+    height: 100vh;
+  }
+
+  h1.titulo{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    -webkit-text-stroke: 1px black;
+    color: black;
+    text-shadow:
+      3px 3px 0 #FEDC3D,
+      -1px -1px 0 #FEDC3D,
+      1px -1px 0 #FEDC3D,
+      -1px 1px 0 #FEDC3D,
+      1px 1px 0 #FEDC3D;
+  }
+
+  #make{
+    text-decoration: underline dotted #DF744A;
+  }
+
+  #image_profile{
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 6px solid #DF744A;
+    border-radius: 9px;
+    padding: 4px;
+  }
+
+  img:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+  #div2{
+    width: 100%;
+    height: 80vh;
+    background-color: #FEDC3D;
+  }
+
+  h2.subtitu{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+    color: #DF744A;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #div3{
+    background-color: white;
+    margin-top: -190px;
+  }
+
+  h2.subtitu1{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 55px;
+    -webkit-text-stroke: 2px black;
+    color: #FEDC3D;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .span1{
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    color: #FEDC3D;
+    text-shadow:
+      1px 1px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #div4{
+    width: 100%;
+    height: 100vh;
+    background-color: #FEDC3D;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body{
+    font-family: 'Comfortaa', cursive;
+  }
+
+  #div1{
+    width: 100%;
+    height: 100vh;
+  }
+
+  h1.titulo{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    -webkit-text-stroke: 1px black;
+    color: black;
+    text-shadow:
+      3px 3px 0 #FEDC3D,
+      -1px -1px 0 #FEDC3D,
+      1px -1px 0 #FEDC3D,
+      -1px 1px 0 #FEDC3D,
+      1px 1px 0 #FEDC3D;
+  }
+
+  #make{
+    text-decoration: underline dotted #DF744A;
+  }
+
+  #image_profile{
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 6px solid #DF744A;
+    border-radius: 9px;
+    padding: 4px;
+  }
+
+  img:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+  #div2{
+    width: 100%;
+    height: 80vh;
+    background-color: #FEDC3D;
+  }
+
+  h2.subtitu{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    font-size: 55px;
+    -webkit-text-stroke: 1px black;
+    color: #DF744A;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #div3{
+    background-color: white;
+    margin-top: -190px;
+  }
+
+  h2.subtitu1{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 55px;
+    -webkit-text-stroke: 2px black;
+    color: #FEDC3D;
+    text-shadow:
+      3px 3px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .span1{
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    color: #FEDC3D;
+    text-shadow:
+      1px 1px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #div4{
+    width: 100%;
+    height: 100vh;
+    background-color: #FEDC3D;
+  }
 }

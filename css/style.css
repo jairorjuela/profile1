@@ -11,8 +11,10 @@
   h1.titulo{
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
+    margin-left: -40px;
+    margin-right: 23px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 233px;
     -webkit-text-stroke: 1px black;
     color: black;
     text-shadow:
@@ -28,11 +30,11 @@
   }
 
   #image_profile{
-    margin-top: 80px;
+    margin-top: 40px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+    margin-left: 90px;
+    margin-right: 30px;
+    width: 250%;
     border: 6px solid #DF744A;
     border-radius: 9px;
     padding: 4px;
@@ -121,7 +123,8 @@
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
     -webkit-text-stroke: 1px black;
     color: black;
     text-shadow:
@@ -137,11 +140,11 @@
   }
 
   #image_profile{
-    margin-top: 80px;
+    margin-top: 140px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    margin-right: 40px;
+    width: 140%;
     border: 6px solid #DF744A;
     border-radius: 9px;
     padding: 4px;
@@ -232,7 +235,8 @@
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
+    margin-right: 20px;
+    margin-top: 120px;
     -webkit-text-stroke: 1px black;
     color: black;
     text-shadow:
@@ -248,11 +252,11 @@
   }
 
   #image_profile{
-    margin-top: 80px;
+    margin-top: 120px;
     display: block;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
-    width: 50%;
+    width: 99%;
     border: 6px solid #DF744A;
     border-radius: 9px;
     padding: 4px;
@@ -341,7 +345,8 @@
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 110px;
+    margin-right: 38px;
     -webkit-text-stroke: 1px black;
     color: black;
     text-shadow:
@@ -357,11 +362,11 @@
   }
 
   #image_profile{
-    margin-top: 80px;
+    margin-top: 90px;
     display: block;
-    margin-left: auto;
+    margin-left: 59px;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
     border: 6px solid #DF744A;
     border-radius: 9px;
     padding: 4px;
@@ -450,7 +455,7 @@
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 187px;
     -webkit-text-stroke: 1px black;
     color: black;
     text-shadow:
@@ -466,11 +471,11 @@
   }
 
   #image_profile{
-    margin-top: 80px;
+    margin-top: 115px;
     display: block;
-    margin-left: auto;
+    margin-left: 99px;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
     border: 6px solid #DF744A;
     border-radius: 9px;
     padding: 4px;
